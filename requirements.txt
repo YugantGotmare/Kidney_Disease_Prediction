@@ -4,3 +4,6 @@ pandas
 numpy
 matplotlib
 seaborn
+streamlit
+streamlit_option_menu
+urllib3==1.26.6 
