@@ -62,8 +62,8 @@ if (selected == 'Chronic Kidney Disease'):
                                                      wc, rc]])                          
         
         if (kidney_prediction[0] == 0):
-          kidney_diagnosis = 'The person does not has Chronic KIdney Disease'
+          kidney_diagnosis = 'The person does not has Chronic Kidney Disease'
         else:
-          kidney_diagnosis = 'The person has Chronic KIdney Disease'
+          kidney_diagnosis = 'The person has Chronic Kidney Disease'
         
     st.success(kidney_diagnosis)
